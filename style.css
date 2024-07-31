@@ -1,0 +1,85 @@
+body {
+    background-image: url('bg-image.png');
+    width:100%;
+    height:40vh;
+    background-position: center;
+    background-size: contain;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background: transparent;
+    margin-bottom: 30px;
+    color: black;
+    background-color: bisque;
+    padding: 3px;
+}
+
+.players {
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.players div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* background-color: aliceblue; */
+    padding: 5px;
+}
+
+label {
+    margin-right: 10px;
+    background-color: aqua;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span {
+    font-weight: bold;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    background-color: bisque;
+    border: 1px solid #000;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
