@@ -2,7 +2,7 @@
 
 This repository contains the code for a simple and engaging Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 
-<!---![image](https://github.com/user-attachments/assets/7100a1fb-37eb-4658-9ea4-24398d7fa732)--->
+![image](https://github.com/user-attachments/assets/5665d3b5-bc07-4188-9acc-12afde2bbc6c)
 
 
 # Features
